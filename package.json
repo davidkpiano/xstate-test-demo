@@ -9,14 +9,14 @@
     "react-dom": "^16.9.0",
     "react-scripts": "^2.1.8",
     "styled-components": "^4.3.2",
-    "xstate": "^4.6.7"
+    "xstate": "^4.7.8"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "e2e": "jest -c jest.config.js"
+    "e2e": "jest -c jest.config.js --no-cache"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,9 +28,11 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@testing-library/react": "^9.1.3",
-    "@xstate/test": "0.0.1",
+    "@testing-library/react": "^9.4.1",
+    "@xstate/test": "^0.3.0",
     "chai": "^4.2.0",
-    "jest-puppeteer": "^4.3.0"
+    "jest-puppeteer": "^4.4.0",
+    "pptr-testing-library": "^0.4.0",
+    "puppeteer": "^2.1.1"
   }
 }

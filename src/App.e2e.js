@@ -87,7 +87,7 @@ describe('feedback app', () => {
         it(
           path.description,
           async () => {
-            await page.goto('http://localhost:3000');
+            await page.goto(`http://localhost:${process.env.PORT || '3000'}`);
             await path.test(page);
           },
           10000

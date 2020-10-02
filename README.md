@@ -10,6 +10,8 @@ To run the **integration tests**, run `npm test`. This will run the tests found 
 
 To run the **E2E tests**, run `npm run e2e`. This will run the tests found in [`./src/App.e2e.js`](https://github.com/davidkpiano/xstate-test-demo/blob/master/src/App.e2e.js).
 
+NOTE: To run the **E2E tests** on a different port: `PORT=3001 npm run e2e`
+
 ## Resources
 
 - [Github: `@xstate/test`](https://github.com/davidkpiano/xstate/tree/master/packages/xstate-test)
